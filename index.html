@@ -7,70 +7,111 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FOODI</title>
     <link rel="stylesheet" href="Foodi-Style.css">
+    <link rel="stylesheet" href="tablet.css" media="all and (max-width:768px)">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="pictures/LOGO.png">
 </head>
 <body>
 <header>
-<div class="header-content">
-    <nav>
-        <ul>
-            <li>
-                <a href="#" class="font-white">HOME</a>
-            </li>
-            <li>
-                <a href="#">FEATURES</a>
-            </li>
-            <li>
-                <a href="#">OUR MENUS</a>
-            </li>
-            <li class="logo">
-                <img src="pictures/foodilogo.png" alt="">
-            </li>
-            <li>
-                <a href="#">EVENTS</a>
-            </li>
-            <li>
-                <a href="#">OUR SERVICES</a>
-            </li>
-            <li>
-                <a href="#">CONTACT</a>
-            </li>
-        </ul>
-    </nav>
-</div>
+    <div class="header-content">
+        <div class="logo">
+            <img src="pictures/foodilogo.png" alt="">
+        </div>
+        <nav class="navBar">
+            <div class="hamburger-menu">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#chef" class="nav-link">ABOUT OUR CHEF</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#foodGallery" class="nav-link">FOOD GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ourservices" class="nav-link">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ourmenus" class="nav-link">OUR MENUS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#customerReview" class="nav-link">CUSTOMER REVIEW</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#news" class="nav-link">NEWS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
 </header>
 <main>
-    <section class="top">
+    <section class="top" id="home">
         <div class="top-content">
             <h1 class="top-title">WELCOME TO FOODI</h1>
             <p class="top-text">
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque hic quas temporibus. <br><br>
-                Aliquam animi aperiam ducimus fugiat ipsam labore laborum obcaecati, odio perferendis soluta voluptatibus.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque hic quas temporibus. <br><br>
+                Aliquam animi aperiam ducimus fugiat ipsam labore laborum obcaecati, odio perferendis soluta
+                voluptatibus.
             </p>
         </div>
     </section>
-    <section class="chef">
+    <section class="chef" id="chef">
         <div class="chef-content">
-             <div class="chef-items">
-                 <div class="chef-text">
-                     <h2 class="chef-title">ABOUT OUR CHEF</h2>
-                     <p class="chef-desc">
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                         At consequuntur cupiditate, eos et expedita facilis, 
-                         fugiat illo illum libero minima molestias nam non pariatur quam quod reiciendis sint, temporibus vel? 
-                         Aliquam deserunt excepturi in laudantium molestiae natus porro unde voluptas?
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br>
-                         Aliquam cum fugiat labore qui quisquam sint.
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                         Aliquam cum fugiat labore qui quisquam sint.
-                     </p>
-                     <a href="#" class="chef-link">READ MORE</a>
-                 </div>
-             </div>
+            <div class="chef-items">
+                <div class="chef-text">
+                    <h2 class="chef-title">ABOUT OUR CHEF</h2>
+                    <p class="chef-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        At consequuntur cupiditate, eos et expedita facilis,
+                        fugiat illo illum libero minima molestias nam non pariatur quam quod reiciendis sint, temporibus
+                        vel?
+                        Aliquam deserunt excepturi in laudantium molestiae natus porro unde voluptas?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> <br>
+                        Aliquam cum fugiat labore qui quisquam sint.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aliquam cum fugiat labore qui quisquam sint.
+                    </p>
+                    <button  class="chef-link"> READ MORE </button>
+                </div>
+                <div class="mCHef">
+                    <div class="mContentChef">
+                        <div class="mDescChef">
+                            <p class="mTitleChef">ABOUT OUR CHEF</p>
+                            <p class="mTextChef">
+                                Clare Smyth is the head chef at Restaurant FOODI and Britain’s
+                                first female chef to run a restaurant with three Michelin stars. Achieving that position
+                                is a great accomplishment in itself. However Clare’s attitude of perseverance and
+                                passion to be successful in a man’s world is what demonstrated her determination to not
+                                let her gender limit her success.She admits that restaurants tend to be
+                                “testosterone-driven” but is proud that as a female chef she is tough enough to get
+                                things done while adding a more collaborative and “kinder’ feminine touch to cooking in
+                                her award winning South Kensington restaurant. Clare is an inspirational female chef who
+                                stayed true to her values of sustainability by incorporating organic and healthy foods
+                                into a structured restaurant environment. She led the way for a fresh approach to
+                                cooking and launched a trend for organic and locally produced ingredients that has now
+                                become mainstream around the world.
+                            </p>
+                        </div>
+                        <div class="closeButtonChef">
+                            <img src="pictures/close.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
-    <section class="food-gallery">
+    <section class="food-gallery" id="foodGallery">
         <div class="food-gallery-content">
             <div class="section-title-block">
                 <h3 class="section-title">FOOD GALLERY</h3>
@@ -80,112 +121,112 @@
                 </p>
             </div>
 
-        <div class="food-gallery-items">
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/cheeseburger.png" alt="">
+            <div class="food-gallery-items">
+                <div class="food-gallery-item" data-picture="pictures/cheeseburger.png">
+                    <div class="food-gallery-image">
+                        <img src="pictures/cheeseburger.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">CHESEBURGER</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;15.00</span>
+                    </div>
                 </div>
-                <div class="food-gallery-text">
-                      <h6 class="food-gallery-text-title">CHESEBURGER</h6>
-                      <p class="food-gallery-text-desc">
-                          Proin maximus metus quis augue pharetra rhoncus.
-                      </p>
-                      <span class="food-gallery-text-money">&#36;15.00</span>
+                <div class="food-gallery-item" data-picture="pictures/nun_ruti.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/NunRuti.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">NUN RUTI</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;17.00</span>
+                    </div>
+                </div>
+                <div class="food-gallery-item" data-picture="pictures/hot_pizza.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/hotpizza.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">HOT PIZZA</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;21.00</span>
+                    </div>
+                </div>
+                <div class="food-gallery-item" data-picture="pictures/Chicken-Wings.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/chicken.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">CHICKEN</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;20.00</span>
+                    </div>
+                </div>
+                <div class="food-gallery-item" data-picture="pictures/beef_steak.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/beefking.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">BEEF KING</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;19.00</span>
+                    </div>
+                </div>
+                <div class="food-gallery-item" data-picture="pictures/sushi_platter.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/hotsushi.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">HOT SUSHI</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;27.00</span>
+                    </div>
+                </div>
+                <div class="food-gallery-item" data-picture="pictures/somosa_.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/somosa.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">SOMOSA</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;21.00</span>
+                    </div>
+                </div>
+                <div class="food-gallery-item" data-picture="pictures/MOZZARELLA _STICKS.jpg">
+                    <div class="food-gallery-image">
+                        <img src="pictures/coldcake.png" alt="">
+                    </div>
+                    <div class="food-gallery-text">
+                        <h6 class="food-gallery-text-title">MOZZARELLA STICKS</h6>
+                        <p class="food-gallery-text-desc">
+                            Proin maximus metus quis augue pharetra rhoncus.
+                        </p>
+                        <span class="food-gallery-text-money">&#36;20.00</span>
+                    </div>
                 </div>
             </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/NunRuti.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">NUN RUTI</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;17.00</span>
-                </div>
-            </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/hotpizza.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">HOT PIZZA</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;21.00</span>
-                </div>
-            </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/chicken.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">CHICKEN</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;20.00</span>
-                </div>
-            </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/beefking.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">BEEF KING</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;19.00</span>
-                </div>
-            </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/hotsushi.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">HOT SUSHI</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;27.00</span>
-                </div>
-            </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/somosa.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">SOMOSA</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;21.00</span>
-                </div>
-            </div>
-            <div class="food-gallery-item">
-                <div class="food-gallery-image">
-                    <img src="pictures/coldcake.png" alt="">
-                </div>
-                <div class="food-gallery-text">
-                    <h6 class="food-gallery-text-title">COLD CAKE</h6>
-                    <p class="food-gallery-text-desc">
-                        Proin maximus metus quis augue pharetra rhoncus.
-                    </p>
-                    <span class="food-gallery-text-money">&#36;20.00</span>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="ourservices">
         <div class="services-content">
             <div class="section-title-block service">
                 <h3 class="section-title">OUR SERVICES</h3>
                 <p class="section-desc apple">
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Architecto delectus eligendi maiores molestias, nulla sequi.
                 </p>
             </div>
@@ -232,98 +273,222 @@
             </div>
         </div>
     </section>
-    <section class="menu">
+    <section class="menu" id="ourmenus">
         <div class="menu-content">
-                <div class="menu-items">
-            <div class="menu-main-title">
-                <span class="small-title">OUR</span>  <span class="font-orange">MENU</span>
-            </div>
-            <div class="menu-item">
-                   <div class="font-orange-title">
-                       <h4>CHICKEN</h4>
-                   </div>
-                  <div class="menu-desc">
-                      <div>
-                  <p>
-                      Soft Boiled Chicken
-                  </p>
-                   <p class="menu-text">   With Soldires...................................................5.00  </p>
-                  </div>
-                      <div>
-                  <p>
-                      Chicken Ani Style
-                  </p>
-                   <p class="menu-text">  With Soldires...................................................15.00 </p>
-                  </div>
-                      <div>
-                  <p>
-                      Chicken With Egg
-                  </p>
-                   <p class="menu-text"> With Soldires....................................................35.00 </p>
-                  </div>
-                      <div>
-                  <p>
-                      Morog Chicken
-                  </p>
-                  <p class="menu-text">With Soldires......................................................5.00 </p>
-                  </div>
-            </div>
+            <div class="menu-items">
+                <div class="menu-main-title">
+                    <span class="small-title">OUR</span> <span class="font-orange">MENU</span>
                 </div>
-              </div>
+                <div class="menu-item">
+                    <div class="font-orange-title">
+                        <h4>CHICKEN</h4>
+                    </div>
+                    <div class="menu-desc">
+                        <div>
+                            <p>
+                                Soft Boiled Chicken
+                            </p>
+                            <p class="menu-text"> With
+                                Soldires...................................................5.00 </p>
+                        </div>
+                        <div>
+                            <p>
+                                Chicken Ani Style
+                            </p>
+                            <p class="menu-text"> With
+                                Soldires...................................................15.00 </p>
+                        </div>
+                        <div>
+                            <p>
+                                Chicken With Egg
+                            </p>
+                            <p class="menu-text"> With
+                                Soldires....................................................35.00 </p>
+                        </div>
+                        <div>
+                            <p>
+                                Morog Chicken
+                            </p>
+                            <p class="menu-text">With
+                                Soldires......................................................5.00 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  <div class="menu-items">
+                <div class="menu-main-title">
+                    <span class="small-title">OUR</span> <span class="font-orange">MENU</span>
+                </div>
+                <div class="menu-item">
+                    <div class="font-orange-title">
+                        <h4>BEEF</h4>
+                    </div>
+                    <div class="menu-desc">
+                        <div>
+                            <p>
+                               Beef Brisket
+                            </p>
+                            <p class="menu-text"> With
+                                Soldires...................................................5.00 </p>
+                        </div>
+                        <div>
+                            <p>
+                                Beef Steak
+                            </p>
+                            <p class="menu-text"> With
+                                Soldires...................................................15.00 </p>
+                        </div>
+                        <div>
+                            <p>
+                               Beef Stroganoff
+                            </p>
+                            <p class="menu-text"> With
+                                Soldires....................................................35.00 </p>
+                        </div>
+                        <div>
+                            <p>
+                                Corned Beef
+                            </p>
+                            <p class="menu-text">With
+                                Soldires......................................................5.00 </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!--  <div class="menu-items">
+               <div class="menu-main-title">
+                   <span class="small-title">OUR</span> <span class="font-orange">MENU</span>
+               </div>
+               <div class="menu-item">
+                   <div class="font-orange-title">
+                       <h4>LAMB</h4>
+                   </div>
+                   <div class="menu-desc">
+                       <div>
+                           <p>
+                            Roast Leg of Lamb
+                           </p>
+                           <p class="menu-text"> With
+                               Soldires...................................................5.00 </p>
+                       </div>
+                       <div>
+                           <p>
+                              Perfect Roast Lamb
+                           </p>
+                           <p class="menu-text"> With
+                               Soldires...................................................15.00 </p>
+                       </div>
+                       <div>
+                           <p>
+                            Braised Lamb Shank
+                           </p>
+                           <p class="menu-text"> With
+                               Soldires....................................................35.00 </p>
+                       </div>
+                       <div>
+                           <p>
+                          Lamb Chops with Lemon and Garlic
+                           </p>
+                           <p class="menu-text">With
+                               Soldires......................................................5.00 </p>
+                       </div>
+                   </div>
+               </div>
+           </div> -->
+            <!--  <div class="menu-items">
+             <div class="menu-main-title">
+                 <span class="small-title">OUR</span> <span class="font-orange">MENU</span>
+             </div>
+             <div class="menu-item">
+                 <div class="font-orange-title">
+                     <h4>Fish</h4>
+                 </div>
+                 <div class="menu-desc">
+                     <div>
+                         <p>
+                          Garlic Butter Baked Salmon
+                         </p>
+                         <p class="menu-text"> With
+                             Soldires...................................................5.00 </p>
+                     </div>
+                     <div>
+                         <p>
+                            Broiled Salmon with Thai Sweet Chili Glaze
+                         </p>
+                         <p class="menu-text"> With
+                             Soldires...................................................15.00 </p>
+                     </div>
+                     <div>
+                         <p>
+                         Masala Fried Pomfret
+                         </p>
+                         <p class="menu-text"> With
+                             Soldires....................................................35.00 </p>
+                     </div>
+                     <div>
+                         <p>
+                        Seared Ahi Tuna & Arugula Pear Salad
+                         </p>
+                         <p class="menu-text">With
+                             Soldires......................................................5.00 </p>
+                     </div>
+                 </div>
+             </div>
+         </div> -->
         </div>
     </section>
-    <section class="customer-review">
-         <div class="customer-review-content">
-             <div class="section-title-block white ">
-                 <h3 class="section-title main">CUSTOMER REVIEW</h3>
-                 <p class="section-desc black">
-                   Lorem ipsum dolor sit amet, consectetur adipisicing <br>
-                     Aliquam amet consectetur ducimus impedit ipsa nihil obcaecati
-                     officiis quae quidem? Est?
-                 </p>
-             </div>
-             <div class="customer-review-form">
-                 <div class="left-arrow">
-                     <img src="pictures/left%20arrow.png" alt="">
-                 </div>
-                   <div class="review">
-                     <p>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                         Aperiam laborum, ullam? Ab at consectetur consequatur dolor dolorem dolores
-                         dolorum earum est harum hic impedit, ipsum iste laboriosam libero, maiores necessitatibus,
-                         quasi quis rerum voluptatibus voluptatum! Aliquam assumenda aut dignissimos eligendi
-                         eos fuga nobis officiis omnis,
-                         unde vitae! Ab, esse, tempore.
-                     </p>
+    <section class="customer-review" id="customerReview">
+        <div class="customer-review-content">
+            <div class="section-title-block white ">
+                <h3 class="section-title main">CUSTOMER REVIEW</h3>
+                <p class="section-desc black">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+                    Aliquam amet consectetur ducimus impedit ipsa nihil obcaecati
+                    officiis quae quidem? Est?
+                </p>
+            </div>
+            <div class="customer-review-form">
+                <div class="left-arrow">
+                    <img src="pictures/left%20arrow.png" alt="">
+                </div>
+                <div class="review">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam laborum, ullam? Ab at consectetur consequatur dolor dolorem dolores
+                        dolorum earum est harum hic impedit, ipsum iste laboriosam libero, maiores necessitatibus,
+                        quasi quis rerum voluptatibus voluptatum! Aliquam assumenda aut dignissimos eligendi
+                        eos fuga nobis officiis omnis,
+                        unde vitae! Ab, esse, tempore.
+                    </p>
 
-                 </div>
-                     <div class="customer-form">
-                         <div class="customer">
-                         <img src="pictures/customer.png"  alt="">
-                         </div>
-                         <div class="star">
-                             <img src="pictures/star.png" alt="">
-                             <img src="pictures/star.png" alt="">
-                             <img src="pictures/star.png" alt="">
-                             <img src="pictures/star.png" alt="">
-                             <img src="pictures/star.png" alt="">
-                         </div>
-                         <div class="customer-form-text">
-                             <p> MD SHAHIN ALAM </p>
-                             <p class="opacity">22 years</p>
-                         </div>
-                     </div>
+                </div>
+                <div class="customer-form">
+                    <div class="customer">
+                        <img src="pictures/customer.png" alt="">
+                    </div>
+                    <div class="star">
+                        <img src="pictures/star.png" alt="">
+                        <img src="pictures/star.png" alt="">
+                        <img src="pictures/star.png" alt="">
+                        <img src="pictures/star.png" alt="">
+                        <img src="pictures/star.png" alt="">
+                    </div>
+                    <div class="customer-form-text">
+                        <p> MD SHAHIN ALAM </p>
+                        <p class="opacity">22 years</p>
+                    </div>
+                </div>
 
-                 <div class="right-arrow">
-                     <div>
-                     <img src="pictures/arrow%20right.png" alt="">
-                 </div>
+                <div class="right-arrow">
+                    <div>
+                        <img src="pictures/arrow%20right.png" alt="">
+                    </div>
 
-                 </div>
-             </div>
-         </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="newsletter">
+    <section class="newsletter" id="news">
         <div class="newsletter-content">
             <div class="newsletter-titles">
                 <p class="newsletter-title-small">DO YOU WANT TO HEAR THE LATEST NEWS?</p>
@@ -331,10 +496,11 @@
             </div>
             <div class="newsletter-inputs">
                 <form>
-                     <div class="newsletter-inputs-container">
-                <input type="email" name="email" class="email" placeholder="Enter your E-mail Address" title="email">
-               <button class="newsletter-btn">SUBSCRIBE</button>
-                 </div>
+                    <div class="newsletter-inputs-container">
+                        <input type="email" name="email" class="email" placeholder="Enter your E-mail Address"
+                               title="email">
+                        <button class="newsletter-btn">SUBSCRIBE</button>
+                    </div>
                 </form>
 
 
@@ -346,73 +512,73 @@
 
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-content">
             <div class="contacts-sources">
-            <div class="contact-links">
-                 <div class="contact-logo">
-                <a href="#" class="foodi">
-                    <img src="pictures/LOGO.png" alt="">
-                </a>
-            </div>
-                <div class="contact-social-links">
-                <a href="https://www.facebook.com/">
-                    <img src="pictures/facebook.png" alt="">
-                </a>
-                <a href="https://www.instagram.com/?hl=ru">
-                    <img src="pictures/instagram.png" alt="">
-                </a>
-                <a href="https://twitter.com/login?lang=ru">
-                    <img src="pictures/twitter.png" alt="">
-                </a>
-                <a href="https://aboutme.google.com/u/0/?referer=gplus">
-                    <img src="pictures/google+.png" alt="">
-                </a>
-                <a href="https://www.pinterest.com/login/">
-                    <img src="pictures/pe.png" alt="">
-                </a>
-            </div>
-
-            </div>
-            <div class="contact-info">
-                <p>
-                    <img src="pictures/location.png" alt="">
-                    <span>701B,Street of lan- <br>
-                          vegar, Marsomara, <br> Pin 10567, NY
-                    </span>
-                </p>
-                <p>
-                    <img src="pictures/cal.png" alt="">
-                    <span>+898  01786272258</span>
-                </p>
-                <p>
-                    <img src="pictures/maiil%20icon.png" alt="">
-                    <span>shahin3647@diu.edu.bd</span>
-                </p>
-            </div>
-           </div>
-            <div class="contact-form">
-                <form>
-                    <div class="form-title">
-                    <h4 class="contact-orange" >CONTACT US</h4>
+                <div class="contact-links">
+                    <div class="contact-logo">
+                        <a href="#" class="foodi">
+                            <img src="pictures/LOGO.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contact-social-links">
+                        <a href="https://www.facebook.com/">
+                            <img src="pictures/facebook.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/?hl=ru">
+                            <img src="pictures/instagram.png" alt="">
+                        </a>
+                        <a href="https://twitter.com/login?lang=ru">
+                            <img src="pictures/twitter.png" alt="">
+                        </a>
+                        <a href="https://aboutme.google.com/u/0/?referer=gplus">
+                            <img src="pictures/google+.png" alt="">
+                        </a>
+                        <a href="https://www.pinterest.com/login/">
+                            <img src="pictures/pe.png" alt="">
+                        </a>
                     </div>
 
-                  <div class="input-fields">
-                      <label class="input-image">
-                        <input type="text" class="input-field" name="name" placeholder="Name" >
-                        <img src="pictures/man%20icon.png" alt="" class="man-sign">
-                      </label>
-                      <label class="input-image circle ">
-                        <input type="email" class="input-field" name="email" placeholder="Email">
-                        <img src="pictures/envelope.png" alt="" class="email-sign">
-                      </label>
-                    <label >
-                        <textarea name="message" class="input-field" placeholder="message"></textarea>
-                    </label>
-                    <button class="contact-btn">
-                        SEND MESSAGE
-                    </button>
-                   </div>
+                </div>
+                <div class="contact-info">
+                    <p>
+                        <img src="pictures/location.png" alt="">
+                        <span>701B,Street of lan- <br>
+                          vegar, Marsomara, <br> Pin 10567, NY
+                    </span>
+                    </p>
+                    <p>
+                        <img src="pictures/cal.png" alt="">
+                        <span>+898  01786272258</span>
+                    </p>
+                    <p>
+                        <img src="pictures/maiil%20icon.png" alt="">
+                        <span>shahin3647@diu.edu.bd</span>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="form_container">
+                    <div class="form-title">
+                        <h4 class="contact-orange">CONTACT US</h4>
+                    </div>
+
+                    <div class="input-fields">
+                        <label class="input-image">
+                            <input type="text" class="input-field" id="firstname" name="firstname" placeholder="Name">
+                            <img src="pictures/man%20icon.png" alt="" class="man-sign">
+                        </label>
+                        <label class="input-image circle ">
+                            <input type="email" class="input-field" id="email" name="email" placeholder="Email">
+                            <img src="pictures/envelope.png" alt="" class="email-sign">
+                        </label>
+                        <label>
+                            <textarea name="message" id="message" class="input-field" placeholder="message"></textarea>
+                        </label>
+                        <button class="contact-btn">
+                            SEND MESSAGE
+                        </button>
+                    </div>
 
                 </form>
             </div>
@@ -425,5 +591,30 @@
         &copy; 2019 Ani Koshkarian
     </div>
 </footer>
+<div class="modal">
+    <div class="modal-content">
+        <div class="modal-image">
+            <img src="pictures/empty-plate.jpg" alt="">
+        </div>
+        <div class="modal-desc">
+            <p class="modal-title"></p>
+            <p class="modal-price"></p>
+            <p class="modal-text"></p>
+        </div>
+        <div class="close-button">
+            <img src="pictures/close.svg" alt="">
+        </div>
+    </div>
+
+</div>
+<script src="jquery-3.5.1.min.js">
+
+</script>
+<script src="jquery.validate.min.js">
+
+</script>
+<script src="foodi_js.js">
+
+</script>
 </body>
 </html>
