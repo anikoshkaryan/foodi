@@ -15,8 +15,7 @@
 /*Section Top End*/
 /* Chef Section */
 .chef {
-    background: url("pictures/chefimage.png") no-repeat right 60px bottom 0 #ffff;
-    min-height: 60vh;
+    min-height: 50vh;
 }
 
 .chef-items {
@@ -54,65 +53,65 @@
     color: white;
 
 }
-.mCHef {
-    background: rgba(0, 0, 0, 0.79);
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 20;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.mCHef.open {
-    visibility: visible;
-    opacity: 1;
-}
 
 .mContentChef{
-    background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 30px;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.closeButtonChef img {
     width: 100%;
-}
-
-.closeButtonChef {
-    width: 20px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-
-.mDescChef {
-    margin: 0 30px;
-
-}
-
-.mTextChef {
-    padding: 15px;
-    color: #404040;
-    font-family: 'Montserrat-Regular', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.mTitleChef{
-    color: rgba(139, 0, 0, 0.9);
-    font-family: 'Montserrat-bold', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    max-width: 700px;
+    min-width: 300px;
+    min-height: 200px;
 }
 
 
 /*Chef Section End*/
+
+
+/*Food Gallery*/
+
+.food-gallery-item {
+    width: 50%;
+    min-width: 50%;
+}
+.modal-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 20px;
+}
+/*Food Gallery End*/
+/*Newsletter Section*/
+.newsletter-btn {
+    width: 60%;
+
+}
+/*Newsletter Section end*/
+/*Menu Section*/
+.menu-content {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Menu Section end*/
+/*Contact Section*/
+.contact-form {
+    background: white;
+    width: 200px;
+    min-height: 200px;
+    padding: 30px 30px;
+
+}
+.contacts-sources {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-logo {
+    margin: 0 20px auto;
+    padding-bottom: 20px;
+}
+/*Contact Section end*/
