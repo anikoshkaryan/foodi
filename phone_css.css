@@ -1,0 +1,67 @@
+/*Section Top*/
+.navBar{
+    height: 60%;
+}
+.top {
+    min-height: 50vh;
+
+}
+
+.top-content {
+    width: 90%;
+    color: white;
+    text-align: center;
+}
+
+.top-title {
+    font-size: 20px;
+    margin: 20px 0;
+}
+/*Section Top End*/
+/* Chef Section */
+.chef {
+    background: url("pictures/chefimage.png" ) no-repeat right 40px bottom 0 #ffff;
+    min-height: 50vh;
+    height: 1000px;
+    width: 394px;
+}
+
+.chef-items {
+    width:80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.chef-text {
+    width: 100%;
+    padding: 20px;
+}
+.mContentChef{
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 20px;
+}
+.chef-title{
+    font-size: 25px;
+}
+
+/*Chef Section End*/
+
+/*Food Gallery*/
+
+.food-gallery-item {
+    width: 70%;
+    min-width: 70%;
+}
+.modal-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 20px;
+}
+/*Food Gallery End*/
