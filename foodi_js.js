@@ -5,9 +5,9 @@ $.validator.setDefaults({
 });
 
 $("document").ready(function () {
-   let menuIcon = document.querySelector('.hamburger-menu');
-   let navBar = document.querySelector(".navBar");
-    menuIcon.addEventListener("click", (event) =>{
+    let menuIcon = document.querySelector('.hamburger-menu');
+    let navBar = document.querySelector(".navBar");
+    menuIcon.addEventListener("click", (event) => {
         event.stopPropagation();
         navBar.classList.toggle("change");
     });
@@ -83,4 +83,15 @@ $("document").ready(function () {
         event.stopPropagation();
 
     });
+    /*slider*/
+    $('.owl-carousel').owlCarousel({
+        animateIn: 'animate__backInUp',
+        items: 1,
+        loop: true,
+        nav: true,
+        margin: 30,
+        stagePadding: 30,
+        smartSpeed: 450
+    });
+    /*slider end*/
 });

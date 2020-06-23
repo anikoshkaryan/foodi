@@ -26,7 +26,6 @@ header {
     box-sizing: border-box;
 }
 
-
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -133,7 +132,6 @@ header {
     transform: scaleX(1);
 }
 
-
 /*Header End*/
 
 /*Top Section*/
@@ -202,6 +200,7 @@ header {
     color: white;
 
 }
+
 .mCHef {
     background: rgba(0, 0, 0, 0.79);
     position: fixed;
@@ -219,7 +218,7 @@ header {
     opacity: 1;
 }
 
-.mContentChef{
+.mContentChef {
     background-color: white;
     position: absolute;
     top: 50%;
@@ -255,13 +254,12 @@ header {
     line-height: 20px;
 }
 
- .mTitleChef{
+.mTitleChef {
     color: rgba(139, 0, 0, 0.9);
     font-family: 'Montserrat-bold', sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
-
 
 /*Chef Section End*/
 
@@ -429,7 +427,7 @@ header {
 }
 
 .menu-content {
-    background: url("pictures/juicy chicken.png") no-repeat left 80px bottom 45px rgba(0, 0, 0, 0.63);
+    background: rgba(0, 0, 0, 0.63);
     width: 800px;
     height: 400px;
     position: absolute;
@@ -441,7 +439,7 @@ header {
 .menu-items {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    padding: 30px;
 }
 
 .menu-main-title {
@@ -450,6 +448,15 @@ header {
     margin-right: 30px;
     padding: 40px;
 
+}
+
+.menu-img {
+    height: 190px;
+}
+
+.menu-img img {
+    height: 100%;
+    width: auto !important;
 }
 
 .small-title {
@@ -471,10 +478,29 @@ header {
     color: white;
     margin: 30px 0;
 
+}
+
+.owl-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 150px;
+    color: #f16522;
 
 }
 
-p {
+.owl-carousel .owl-nav button.owl-next {
+    font-size: 150px;
+    color: #f16522;
+}
+
+.menu p {
     margin: 10px 0;
     font-size: 15px;
 }
@@ -530,7 +556,6 @@ p {
     text-align: center;
     padding: 30px;
     margin: 0 40px;
-
 
 }
 
