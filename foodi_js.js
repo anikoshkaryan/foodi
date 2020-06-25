@@ -91,7 +91,8 @@ $("document").ready(function () {
         nav: true,
         margin: 30,
         stagePadding: 30,
-        smartSpeed: 450
+        smartSpeed: 450,
+        dots: false,
     });
     /*slider end*/
 });

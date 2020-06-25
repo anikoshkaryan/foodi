@@ -1,10 +1,11 @@
 /*Section Top*/
 .navBar{
-    height: 60%;
+    height: 80%;
 }
 .top {
     min-height: 50vh;
-
+    background: url("pictures/mobileBackground.jpg") no-repeat -260px 46px;
+    background-size: cover;
 }
 
 .top-content {
@@ -16,6 +17,10 @@
 .top-title {
     font-size: 20px;
     margin: 20px 0;
+    text-shadow: 0 0 20px #000;
+}
+.top-text {
+    text-shadow: 0 0 20px #000;
 }
 /*Section Top End*/
 /* Chef Section */

@@ -429,25 +429,27 @@ header {
 .menu-content {
     background: rgba(0, 0, 0, 0.63);
     width: 800px;
-    height: 400px;
+    min-height: 320px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 30px;
+    /* box-sizing: border-box; */
 }
 
 .menu-items {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    /* padding: 54px; */
+    box-sizing: border-box;
 }
 
 .menu-main-title {
     font-size: 55px;
     font-weight: bold;
-    margin-right: 30px;
-    padding: 40px;
-
+    margin-right: 20px;
+    /* padding: 40px; */
 }
 
 .menu-img {
@@ -487,6 +489,8 @@ header {
     display: flex;
     justify-content: space-between;
     height: 100%;
+    box-sizing: border-box;
+    left: 0;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -864,10 +868,9 @@ textarea.input-field {
 .modal-image {
     overflow: hidden;
     width: 400px;
-    height: 400px;
+    /* height: 400px; */
     padding-top: 10px;
-    margin: 30px auto 0;
-
+    margin: 30px auto 20px;
 }
 
 .modal-image img {
