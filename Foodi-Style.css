@@ -678,13 +678,9 @@ header {
 /*Newsletter Section End*/
 
 /*Google Map Section*/
-.google-map {
+#map iframe{
     width: 100%;
-    height: 60vh;
-}
-.google-map iframe{
-    width: 100%;
-    height: 100%;
+    height: 750px;
 }
 /*Google Map Section End*/
 

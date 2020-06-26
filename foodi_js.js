@@ -95,4 +95,6 @@ $("document").ready(function () {
         dots: false,
     });
     /*slider end*/
+    
+
 });

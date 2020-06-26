@@ -93,3 +93,9 @@
 }
 
 /*Contact Section end*/
+
+/*google map*/
+#map iframe{
+    height: 600px;
+}
+/*google map*/
