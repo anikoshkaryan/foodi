@@ -91,6 +91,9 @@
 .contact-links{
     padding-left: 40px;
 }
+.contact {
+    min-height: 30vh;
+}
 
 /*Contact Section end*/
 

@@ -496,12 +496,13 @@ header {
 .owl-carousel .owl-nav button.owl-prev {
     font-size: 150px;
     color: #f16522;
-
+    outline: none;
 }
 
 .owl-carousel .owl-nav button.owl-next {
     font-size: 150px;
     color: #f16522;
+    outline: none;
 }
 
 .menu p {
@@ -587,7 +588,7 @@ header {
 
 .customer-review-item {
     position: relative;
-    min-height: 400px;
+    min-height: 420px;
 }
 
 .customer img {
@@ -611,6 +612,7 @@ header {
     left: 50%;
     transform: translate(-50%, -22%);
 }
+
 /*Customer Review Section End*/
 
 /*Newsletter Section*/
@@ -681,6 +683,7 @@ header {
 #map iframe{
     width: 100%;
     height: 750px;
+    display: block;
 }
 /*Google Map Section End*/
 
@@ -707,7 +710,8 @@ header {
 
 .contact-links a {
     vertical-align: middle;
-    margin: 50px 10px;
+    margin: 0 10px;
+    display: inline-block;
 }
 
 .contact-logo {
@@ -740,6 +744,9 @@ header {
     left: 50%;
     top: 0;
     transform: translate(-50%, -50%);
+}
+.contact-logo img {
+    width: 100%;
 }
 
 .input-image {
